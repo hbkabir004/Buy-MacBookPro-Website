@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MacBook Pro</title>
-    <!-- Vanilla CSS StyleSheet -->
-    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap Style Sheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -39,7 +37,7 @@
                     <div class="py-4">
                         <!-- Storage Option -->
                         <h6 class="fw-bold">Storage</h6>
-                        <button onclick="basicStroge()" type="button" class="btn btn-outline-dark">256GB SSD
+                        <button onclick="basicStorage()" type="button" class="btn btn-outline-dark">256GB SSD
                             storage</button>
                         <button onclick="extraStorageGB()" type="button" class="btn btn-outline-dark">512GB SSD
                             storage</button>
@@ -68,7 +66,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Extra Memory Cost</th>
-                                    <td>$<span id="extra-memory-cost" class="fw-bold">0</span></td>
+                                    <td class="fw-bold">$<span id="extra-memory-cost">0</span></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Extra Storage Cost</th>

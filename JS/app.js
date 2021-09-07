@@ -18,49 +18,48 @@ function updateTotal() {
     discountedTotal.innerText = grandTotal;
 };
 
-
 // Basic Memory
-document.getElementById('basic-memory').addEventListener('click', function () {
+function basicMemory() {
     memoryCost.innerText = '0';
     updateTotal();
-});
+};
 //Extra Memory
-document.getElementById('extra-memory').addEventListener('click', function () {
-    memoryCost.innerText = "180";
+function extraMemory() {
+    memoryCost.innerText = '180';
 
     updateTotal();
 
-});
+};
 
 // Storage
-document.getElementById('basic-storage').addEventListener('click', function () {
+function basicStorage() {
     storageCost.innerText = '0';
     updateTotal();
-});
+};
 // Extra Strorage 512GB
-document.getElementById('extra-storage-gb').addEventListener('click', function () {
-    storageCost.innerText = "100";
+function extraStorageGB() {
+    storageCost.innerText = '100';
     updateTotal();
 
-});
+};
 // Extra Strorage 1TB
-document.getElementById('extra-storage-tb').addEventListener('click', function () {
-    storageCost.innerText = "180";
+function extraStorageTB() {
+    storageCost.innerText = '180';
     updateTotal();
-});
+};
 
 // Free delivery
-document.getElementById('free-delivery').addEventListener('click', function () {
+function freeDelivery() {
     deliveryChrage.innerText = '0';
     updateTotal();
-});
+};
 
 //Delivery
-document.getElementById('delivery').addEventListener('click', function () {
-    deliveryChrage.innerText = "20";
+function delivery() {
+    deliveryChrage.innerText = '20';
     updateTotal();
 
-});
+};
 
 // PromoCode
 document.getElementById('btn-apply').addEventListener('click', function () {
